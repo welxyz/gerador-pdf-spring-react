@@ -4,7 +4,7 @@ import java.util.List;
 
 public record HoleriteRequest(
     Empresa empresa,
-    Funcionario funcionario,
+    Colaborador colaborador,
     String mesReferencia,
     List<Lancamento> lancamentos,
     Calculos calculos
